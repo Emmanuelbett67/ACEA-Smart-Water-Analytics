@@ -41,6 +41,7 @@ How does this tie into the dataset? There are four aquifers, three water springs
 | Madonna di Canneto | Water Spring   |                                | Situated at an altitude of 1010m above sea level in the Canneto valley. <br>It does not consist of an aquifer and its source is supplied by the water catchment area of the river Melfa                                                                                     |
 | Lupa               | Water Spring   |                                | Located in the Arrone area and is used for drinking use.                                                                                                                                                                                                                    |
 # Project Steps (Roadmap to the solution)
+
 1.Exploratory Data Analysis(EDA)- There is a chunk of data that is missing, we have to change this. We shall use a heatmap to study the correlation between for each waterbody type.
 
 2.Metrics used 
@@ -52,11 +53,11 @@ Median Absolute Error (MAE), Root Mean Square Log Error(RMSLE), and R Squared (R
 
 -High R² means that the correlation between observed and predicted values is high. It tells how good our regression model is as compared to a very simple model that just predicts the mean value of target from the train set as predictions.
 
-3. Data Preporcessing- In order to remove the anomalies found during the EDA.
+3.Data Preporcessing- In order to remove the anomalies found during the EDA.
 
-4. Feature Engineering- The primary goal is to have 4 models at the end, one for each waterbody.Thus we integrate the datasets into their respective waterbody type by taking the average based on different time durations i.e. daily, weekly, monthly, and yearly.
+4.Feature Engineering- The primary goal is to have 4 models at the end, one for each waterbody.Thus we integrate the datasets into their respective waterbody type by taking the average based on different time durations i.e. daily, weekly, monthly, and yearly.
 
-5. The Model- this is the final step.The datasets are first normalized to remove the negative values. Then several types of models are tried to get the least error metrics/best predictions. knn, Linear Regression, Random Forest, SGRegression, Decision Trees, XGBoost, Adaboost were tried along with rigorous hyperparameter tuning in GridSearchCV
+5.The Model- this is the final step.The datasets are first normalized to remove the negative values. Then several types of models are tried to get the least error metrics/best predictions. knn, Linear Regression, Random Forest, SGRegression, Decision Trees, XGBoost, Adaboost were tried along with rigorous hyperparameter tuning in GridSearchCV
 # REFERENCES
 https://www.mdpi.com/2073-4441/12/1/93?type=check_update&version=1
 https://www.mdpi.com/2073-4441/12/6/1528/htm
