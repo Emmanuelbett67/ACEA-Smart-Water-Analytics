@@ -60,12 +60,22 @@ Median Absolute Error (MAE), Root Mean Square Log Error(RMSLE), and R Squared (R
 5.The Model- this is the final step.The datasets are first normalized to remove the negative values. Then several types of models are tried to get the least error metrics/best predictions. knn, Linear Regression, Random Forest, SGRegression, Decision Trees, XGBoost, Adaboost were tried along with rigorous hyperparameter tuning in GridSearchCV
 # REFERENCES
 https://www.mdpi.com/2073-4441/12/1/93?type=check_update&version=1
+
 https://www.mdpi.com/2073-4441/12/6/1528/htm
+
 https://www.researchgate.net/publication/328086006_Short-term_water_demand_forecasting_using_machine_learning_techniques
+
 https://skemman.is/bitstream/1946/32366/1/HallaMarinos.pdf
+
 https://machinelearningmastery.com/knn-imputation-for-missing-values-in-machine-learning/
+
 https://www.techiediaries.com/flask-tutorial-templates/
+
 https://www.geeksforgeeks.org/python-pandas-dataframe-ffill/
+
 https://keras.io/api/losses/#creating-custom-losses
+
 https://www.appliedaicourse.com/
+
 https://medium.com/mlearning-ai/water-availability-prediction-using-historical-data-b9044bfddd76#2cea 
+
