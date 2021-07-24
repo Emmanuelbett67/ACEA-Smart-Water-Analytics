@@ -45,8 +45,11 @@ How does this tie into the dataset? There are four aquifers, three water springs
 
 2.Metrics used 
 Median Absolute Error (MAE), Root Mean Square Log Error(RMSLE), and R Squared (R²). I did some research and decided to go with this 3 metrics because;
+
 -MAE is robust to outliers whereas RMSE is not. Using median is an extreme way of trimming extreme values. Hence median absolute error reduces the bias in favor of low forecasts. Also, MAE is really suited from an interpretation standpoint.
+
 -RMSLE is used because the underestimation of the target variable is not acceptable but overestimation can be tolerated. The RMLSE incurs a larger penalty for the underestimation of the actual value. Also, we don’t want to penalize huge differences in the predicted and the actual values when both predicted and actual values are huge numbers. RMSLE metric (unlike RMSE) only considers the relative error between and the Predicted and the actual value and the scale of the error are not significant.
+
 -High R² means that the correlation between observed and predicted values is high. It tells how good our regression model is as compared to a very simple model that just predicts the mean value of target from the train set as predictions.
 
 3. Data Preporcessing- In order to remove the anomalies found during the EDA.
